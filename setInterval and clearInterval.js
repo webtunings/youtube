@@ -31,7 +31,7 @@ Timer.prototype.demo = function(){
     var self = this;
     setTimeout(function(){
     self.clearID = setInterval(function(){self.readPDO(props);},self.interval);
-    },this.start);
+    },self.start);
 };
 
 //prevent any alteration of instance methods
