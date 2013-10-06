@@ -47,7 +47,7 @@
            var frameGapTime = time - lastFrameRepaintTime;
            lastFrameRepaintTime = time;
            var translateX = velocity*(frameGapTime/1000);
-           c.clearRect(0,0,canvas.width,canvas.height);
+           c.clearRect(-distance,0,canvas.width,canvas.height);
            drawCar();
            c.font = 'normal bold 4em courier';
            var translateXText = 'T=' + Math.round(translateX) + 'px';
