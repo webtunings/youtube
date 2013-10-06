@@ -7,7 +7,7 @@
    (function(){
 
        var distance =0;
-       var velocity = 700; //100pixels/second
+       var velocity = 700; //700pixels/second
        var lastFrameRepaintTime =0;
 
        function drawCar(){
